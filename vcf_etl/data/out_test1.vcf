@@ -1,0 +1,10 @@
+##fileformat=VCFv4.0
+##fileDate=20090805
+##FILTER=<ID=q10,Description="Quality below 10">
+##FILTER=<ID=s50,Description="Less than 50% of samples have data">
+##FORMAT=<ID=HQ,Number=2,Type=Integer,Description="Haplotype Quality">
+##INFO=<ID=AF,Number=A,Type=Float,Description="The allele frequency">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	NA00001
+20	14370	rs604374	G	A	29	PASS	AF=0.5	GT:DP	0|0:1
+20	1110696	rs605349	A	G,T	67	PASS	AF=0.333,0.667	GT:DP:AD	1|2:6:23,27
+20	1234567	microstat1	GTCT	G,GTACT	50	PASS	.	GT:DP	0/1:4
